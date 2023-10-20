@@ -1,0 +1,2 @@
+RGBLIGHT_DRIVER = ws2812
+
