@@ -19,7 +19,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_NO,      KC_ESC, KC_W,   KC_E,
         KC_NO,      KC_A,   KC_S,   KC_D,
         KC_LSFT,    KC_NO,  KC_NO,  LT(1, KC_C),
-        KC_LCTL,    KC_NO,  KC_NO,  LT(2, KC_SPC)
+        KC_LCTL,    KC_NO,  KC_NO,  KC_SPC
     ),
 
     [1] = LAYOUT_ortho_4x4(
@@ -28,11 +28,4 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______,    KC_NO,  KC_NO,  _______,
         _______,    KC_NO,  KC_NO,  QK_BOOT
     ),
-
-    [2] = LAYOUT_ortho_4x4(
-        KC_NO,      RGB_HUI,   RGB_SAI, RGB_VAI,
-        KC_NO,      RGB_HUD,   RGB_SAD, RGB_VAD,
-        _______,    KC_NO,  KC_NO,  _______,
-        RGB_TOG,    KC_NO,  KC_NO,  _______
-    )
 };

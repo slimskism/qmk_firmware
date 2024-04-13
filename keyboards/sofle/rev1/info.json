@@ -13,6 +13,15 @@
         "rows": ["C6", "D7", "E6", "B4", "B5"]
     },
     "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "rgbmatrix": true
+    },
     "encoder": {
         "rotary": [
             {"pin_a": "F5", "pin_b": "F4", "resolution": 2}
