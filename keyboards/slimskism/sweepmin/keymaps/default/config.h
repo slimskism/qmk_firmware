@@ -1,0 +1,2 @@
+#define RGBLIGHT_LED_COUNT 36
+#define WS2812_DI_PIN GP11
