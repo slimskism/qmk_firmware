@@ -1,20 +1,20 @@
-# sweepmin
+# SteamSplit
 
-![sweepmin](imgur.com image replace me!)
+![SteamSplit](https://github.com/slimskism/steamsplit/blob/main/Images/SteamSplitBlueGreen.jpg)
 
-Sweep Min is a 3x6 split keyboard with a 3x4 macropad, all built on a single controller.
+SteamSplit is a 3x6 split keyboard with a 3x4 macropad, all built on a single controller.
 
-* Keyboard Maintainer: [Stephen Martin](https://github.com/Slimskism)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Keyboard Maintainer: [Stephen Martin](https://github.com/slimskism)
+* Hardware Supported: Custom PCBs built on a raspberry pi pico controller
+* Hardware Availability: https://github.com/slimskism/steamsplit
 
 Make example for this keyboard (after setting up your build environment):
 
-    make sweepmin:default
+    make steamsplit:default
 
 Flashing example for this keyboard:
 
-    make sweepmin:default:flash
+    make steamsplit:default:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
